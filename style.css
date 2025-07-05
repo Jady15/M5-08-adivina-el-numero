@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+#numero {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 150px;
+    margin: 10px 10px 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#adivinar {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#adivinar:hover {
+    background-color: #45a049;
+}
+
+#reiniciar {
+    background-color: #2196F3;
+    color: white;
+    margin-top: 15px;
+}
+
+#reiniciar:hover {
+    background-color: #1976D2;
+}
+
+#mensaje {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+#intentos {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #numero, button {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    #numero {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
